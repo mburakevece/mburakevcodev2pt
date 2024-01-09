@@ -11,10 +11,10 @@
                 byte count = byte.Parse(Console.ReadLine());
 
                 Console.WriteLine("Enter Starting Number! ");
-                byte start = byte.Parse(Console.ReadLine());
+                byte basla = byte.Parse(Console.ReadLine());
 
                 Console.WriteLine("Enter an Ending Number!");
-                byte end = byte.Parse(Console.ReadLine());
+                byte bit = byte.Parse(Console.ReadLine());
 
                 int[] numbers = new int[count];
                 int num;
