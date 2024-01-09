@@ -21,7 +21,7 @@
 
                 for (int i = 0; i < numbers.Length; i++)
                 {
-                    num = rnd.Next(start, end);
+                    num = rnd.Next(basla,bit);
                     if (i == 0)
                     {
                         numbers[i] = num;
