@@ -8,7 +8,7 @@
             {
                 Random rnd = new Random();
                 Console.WriteLine("How Many Number Do You Want?");
-                byte count = byte.Parse(Console.ReadLine());
+                byte sayac = byte.Parse(Console.ReadLine());
 
                 Console.WriteLine("Enter Starting Number! ");
                 byte basla = byte.Parse(Console.ReadLine());
@@ -16,7 +16,7 @@
                 Console.WriteLine("Enter an Ending Number!");
                 byte bit = byte.Parse(Console.ReadLine());
 
-                int[] numbers = new int[count];
+                int[] numbers = new int[sayac];
                 int num;
 
                 for (int i = 0; i < numbers.Length; i++)
