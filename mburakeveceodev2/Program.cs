@@ -27,9 +27,9 @@
                         numbers[i] = num;
                     }
 
-                    for (int j = 0; j < i; j++)
+                    for (int m = 0; m < i; m++)
                     {
-                        if (numbers[j] == num)
+                        if (numbers[m] == num)
                         {
 
                             i--;
